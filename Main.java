@@ -60,5 +60,11 @@ class Time {
         System.out.println("Time: " + this.hours + " hours, " + this.minutes + " minutes, " + this.seconds + " seconds");
     }
 }
-
+public class Main {
+    public static void main(String[] args) {
+        Time t = new Time();
+        t.setTime();
+        t.displayTime();
+    }
+}
 
